@@ -1,17 +1,85 @@
-## 👋 Good day! Nice to see you here 😄
+## Md Tanjil Islam Bappi
 
+**I build AI products and run the infrastructure they live on.**
 
-As a systems engineer passionate about servers, storage, and virtualization, I bring over ten years of experience designing and implementing enterprise IT solutions. 
-My expertise in virtualization technologies such as VMware and Hyper-V, along with my deep understanding of storage systems, network infrastructure, and server hardware, has enabled me to deliver successful client IT projects. I am a creative problem solver and a strong communicator, able to work effectively with stakeholders to drive technical excellence and ensure project success.
+Ten years designing and operating enterprise virtualization and storage (VMware
+vSphere, vSAN, NSX, SAN) — now applying that same operational discipline to shipping
+production AI systems end to end: the app, the pipeline, the servers, the monitoring,
+and the on-call.
 
-🌱 I'm currently learning PowerCLI and Python
+Most teams hire two people for that. I'm one.
 
-🥳 Fun fact: I love to experiment with coffee brewing methods, and I love to travel.
+📍 Dhaka, Bangladesh (UTC+6) · working with clients across EU/US time zones
+📫 **[Reach me on LinkedIn](https://www.linkedin.com/in/tanjil360/)**
 
-📫 How to reach me: https://www.linkedin.com/in/tanjil360/
+---
 
+### What I do for clients
 
-## My recent Badges
+**AI product engineering**
+Retrieval-grounded chatbots and assistants that answer from *your* data, not from a
+generic model. Multi-provider LLM routing with automatic fallback so one vendor outage
+doesn't take your product down. Image and voice understanding. Structured extraction
+(turning messy conversations into clean records).
+
+**Platform & DevOps**
+Dockerized deployments, CI/CD, Postgres/Redis/object storage, zero-downtime cutovers,
+Prometheus/Grafana/Loki observability with real alerting. VPS and cloud migrations with
+a written rollback plan.
+
+**Infrastructure & virtualization**
+VMware vSphere/vSAN/NSX design, implementation and troubleshooting. Storage and DR
+(Zerto). Host and network hardening. The unglamorous work that keeps revenue online.
+
+---
+
+### Currently building: BuraqBee
+
+An AI auto-reply SaaS for Facebook Messenger, serving small retailers in Bangladesh —
+designed, built, deployed and operated solo.
+
+It answers customers instantly in Bangla, Banglish or English, grounded in each
+business's own product catalog; understands photos and voice notes; extracts orders
+from conversation automatically; and hands off to a human on one click.
+
+**Under the hood:** FastAPI · Celery/Redis · Postgres + pgvector · Next.js · Docker
+Compose (16 services) · multi-provider LLM chain with per-tenant fallback and usage
+metering · Prometheus/Grafana/Loki + alerting · GitHub Actions CI/CD to a hardened VPS
+
+**Live and real:** production Messenger traffic flowing end to end · multi-tenant with
+role-based access · load-tested (p99 11 ms at the webhook layer) · 100+ automated tests
+· a security audit that found and closed a connection-hijack path, an SSRF gap and
+unbounded uploads before launch
+
+*Source is private (it's a commercial product). Happy to walk through the architecture
+or the design docs on a call — HLD, LLD, security model and ops runbook are all
+written.*
+
+---
+
+### Tech
+
+**Backend** Python · FastAPI · Celery · SQLAlchemy · Alembic · pytest
+**Data** PostgreSQL · pgvector · Redis · MinIO/S3
+**AI** RAG & embeddings · multi-provider orchestration (Gemini, Groq, OpenRouter) ·
+vision & speech-to-text · structured extraction
+**Frontend** Next.js · TypeScript · Tailwind
+**Ops** Docker · GitHub Actions · Prometheus · Grafana · Loki · Cloudflare Tunnel ·
+Tailscale · Linux hardening
+**Virtualization** VMware vSphere · vSAN · NSX · Hyper-V · SAN storage · Zerto ·
+PowerCLI
+
+---
+
+### Certifications
+
+VCIX-DCV 2022 · VMware Certified Master Specialist — HCI 2023 · VMware Certified
+Master Specialist — VMware Cloud on AWS 2022 · VCAP-DCV Design & Deploy · VCP-DCV ·
+VCP-NV · Zerto Certified Associate
+
+<details>
+<summary>See the verified badges</summary>
+
 <!--START_SECTION:badges-->
 [![VMware Certified Master Specialist - HCI 2023](https://images.credly.com/size/90x90/images/f7ba7f4b-0eb6-4329-a473-9201bbe6a9de/image.png)](http://www.credly.com/badges/b5580b22-9bf3-40c9-8e00-a7bd8287743e "VMware Certified Master Specialist - HCI 2023")
 [![Zerto Certified Associate](https://images.credly.com/size/90x90/images/b497d307-a9ce-4221-8cc0-39bb23b823e0/image.png)](http://www.credly.com/badges/0e014d65-bbe0-4230-b306-b03077e3ff48 "Zerto Certified Associate")
@@ -25,17 +93,17 @@ My expertise in virtualization technologies such as VMware and Hyper-V, along wi
 [![VMware Certified Professional - Data Center Virtualization 2021](https://images.credly.com/size/90x90/images/d17db04c-7c17-4bb6-ac91-e287dfb3340c/VMware_Cert_P_DCV.png)](http://www.credly.com/badges/05308ea8-8750-4c88-809a-27834190891e "VMware Certified Professional - Data Center Virtualization 2021")
 [![Double VCP - Data Center Virtualization & Network Virtualization](https://images.credly.com/size/90x90/images/a1508378-d359-4d23-8636-9bd1708b8795/image.png)](http://www.credly.com/badges/941b7ae0-ee56-4e12-82bc-33ed61b28849 "Double VCP - Data Center Virtualization & Network Virtualization")
 <!--END_SECTION:badges-->
-<!--
-**MdTanjilIslamBappi/MdTanjilIslamBappi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+</details>
 
-- 🔭 I'm currently working on ...
-🌱 I'm currently learning ...
-- 👯 I'm looking to collaborate on ...
-- 🤔 I'm looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### Working together
+
+I take on a small number of engagements at a time — build-outs, migrations, and
+"we need this to actually stay up" work. If you have something in mind, tell me the
+problem and the deadline and I'll tell you honestly whether I'm the right fit.
+
+**[Message me on LinkedIn](https://www.linkedin.com/in/tanjil360/)**
+
+<sub>Off the clock I over-engineer my coffee brewing and travel whenever I can.</sub>
