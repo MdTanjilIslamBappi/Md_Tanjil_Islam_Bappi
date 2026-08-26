@@ -2,12 +2,11 @@
 
 I’m an **Infrastructure Engineer** with a deep love for VMware, SAN storage, and disaster‑recovery solutions. I thrive on designing resilient, high‑performance data‑center environments and automating routine operations.
 
----
+
 
 ## 📚 Professional Summary
 Experienced Infrastructure Engineer specialising in VMware virtualization, SAN storage, and disaster recovery across large‑scale, multi‑site enterprise environments. Proven track record managing 220 hosts, ~2,600 VMs, and ~3 PB of storage in regulated financial services. Skilled in PowerShell automation, workload migrations, and cross‑functional delivery. Currently pursuing an MSc in Computer Science (University of Bath) while holding multiple VMware certifications.
 
----
 
 ## 💼 Experience
 
@@ -30,13 +29,11 @@ Experienced Infrastructure Engineer specialising in VMware virtualization, SAN s
 *Linde Bangladesh Ltd., Dhaka, Bangladesh* `Mar 2009 – Dec 2009`
 - Ran the IT Help Desk for HQ & 19 sales centres; implemented LAN/Server solutions and disaster‑recovery procedures.
 
----
 
 ## 🎓 Education
 - **MSc Computer Science** – University of Bath (part‑time), started Sep 2025, UK
 
 
----
 
 ## 🛠️ Skills
 - **Virtualization:** VMware vSphere, vSAN, NSX, SRM, vROPs, Hyper‑V
@@ -46,7 +43,7 @@ Experienced Infrastructure Engineer specialising in VMware virtualization, SAN s
 - **Backup / DR:** Veeam, Commvault, Tape Libraries (HPE/Dell/Oracle)
 - **Cloud:** VMware Cloud on AWS, Azure, Oracle Cloud
 
----
+
 
 ## 📜 Certifications
 - VMware Certified Advanced Professional – Network Virtualization (2021)
